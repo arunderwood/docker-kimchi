@@ -1,10 +1,12 @@
-mbentley/kimchi
+arunderwood/kimchi
 ===============
+
+> Forked from mbentley/kimchi
 
 docker image for kimchi
 
 To pull this image:
-`docker pull mbentley/kimchi`
+`docker pull arunderwood/kimchi`
 
 Usage:
 ```
@@ -18,5 +20,5 @@ docker run -d --restart=always --net=host --name kimchi \
   -v /var/lib/libvirt:/var/lib/libvirt \
   -v /etc/libvirt:/etc/libvirt \
   -v /path/to/your/storage:/path/to/your/storage \
-  mbentley/kimchi
+  arunderwood/kimchi
 ```
